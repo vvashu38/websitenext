@@ -1,7 +1,7 @@
 {
-  "name": "jobfillr",
+  "name": "nextjs-saas-starter-template",
   "version": "1.0.0",
-  "description": "My Chrome extension website",
+  "description": "Nextjs Saas Starter Template",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
