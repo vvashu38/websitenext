@@ -2,12 +2,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="text-center my-16 mx-4 sm:mx-8 md:mx-16 lg:mx-24">
-      <div className="mb-8">
-        <button className="bg-blue-100 text-blue-800 dark:bg-black dark:text-blue-100 px-4 py-2 rounded-full text-sm">
-          Follow along on Twitter
-        </button>
-      </div>
+    <section className="text-center my-32 mx-4 sm:mx-8 md:mx-16 lg:mx-24">
       <h1 className="font-sans text-3xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl dark:text-white mb-6">
         Template app amazing hero!
       </h1>

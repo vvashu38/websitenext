@@ -38,10 +38,12 @@ const Features = () => {
   ];
 
   return (
-    <section className="container mx-auto px-4 py-8 bg-gray-50 dark:bg-black transition-colors duration-200 dark:border dark:border-gray-800 rounded-lg">
+    <section className="container mx-auto px-4 py-8 bg-gray-50 dark:bg-gray-900 transition-colors duration-200 rounded-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl">Features</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 dark:text-white mb-4">
+            Features
+          </h2>
           <p className="mt-4 text-xl text-gray-600 dark:text-gray-300">
             This project is an experiment to see how a modern app, with features like auth, subscriptions, API routes,
             and static pages would work in Next.js 14 app dir.
