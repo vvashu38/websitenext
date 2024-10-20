@@ -44,12 +44,14 @@ const defaultAccordionItems = [
     content: "Start your journey with a 34-day trial. It's easy no credit card or commitment.",
   },
   {
-    title: "Make a money plan",
-    content: "Create a personalized budget and set financial goals to help you manage your money effectively.",
+    title: "Easy to use",
+    content:
+      "Our app is designed to be user-friendly and easy to use. We want to provide a seamless experience for your users so that you can focus on what matters.",
   },
   {
-    title: "Enjoy less stress",
-    content: "With better financial management, you can reduce money-related stress and focus on what matters most.",
+    title: "Focus on what matters",
+    content:
+      "With better financial management, you can reduce money-related stress and focus on what matters most. More to come.",
   },
 ];
 

@@ -20,8 +20,7 @@ const Download: React.FC = () => (
             Download Our App
           </h2>
           <p className="text-xl text-gray-800 dark:text-gray-300 mb-6">
-            Get financial control at your fingertips. Track expenses, set budgets, and view your financial health
-            anytime, anywhere. Download now for a smarter way to manage your money.
+            Download the state of the art app and start saving time and money. More to come.
           </p>
           <div className="flex space-x-4">
             <Link

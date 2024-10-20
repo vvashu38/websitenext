@@ -8,45 +8,45 @@ const Features = () => {
     {
       icon: SiNextdotjs,
       title: "Next.js 14",
-      description: "App dir, Routing, Layouts, Loading UI and API routes.",
+      description: "App dir, Routing, Layouts, components, and more.",
     },
     {
       icon: FaReact,
       title: "React 18",
-      description: "Server and Client Components. Use hook.",
+      description: "Server and Client Components. using hooks and context.",
     },
     {
       icon: FaDatabase,
       title: "Database",
-      description: "Postgres basic support added. Use node pg.",
+      description: "Postgres basic and other cool features to come.",
     },
     {
       icon: SiTailwindcss,
       title: "Components",
-      description: "UI components built using Radix UI and styled with Tailwind CSS.",
+      description: "Awesome components built with Tailwind CSS and more to come.",
     },
     {
       icon: FaShieldAlt,
       title: "Authentication",
-      description: "Authentication using NextAuth.js and middlewares.",
+      description: "Talk about your authentication features built into your app.",
     },
     {
       icon: SiStripe,
       title: "Subscriptions",
-      description: "Free and paid subscriptions using Stripe. (To be added.)",
+      description: "Talk about your subscription features and how they work.",
     },
   ];
 
   return (
-    <section className="container mx-auto px-4 py-8 bg-gray-50 dark:bg-gray-900 transition-colors duration-200 rounded-lg">
+    <section className="container mx-auto px-4 py-12 bg-gray-50 dark:bg-gray-900 transition-colors duration-200 rounded-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 dark:text-white mb-4">
             Features
           </h2>
-          <p className="mt-4 text-xl text-gray-600 dark:text-gray-300">
-            This project is an experiment to see how a modern app, with features like auth, subscriptions, API routes,
-            and static pages would work in Next.js 14 app dir.
+          <p className="mt-8 text-xl text-gray-600 dark:text-gray-300">
+            Highlight cool features of your app using the beautifully designed custom cards with icons. You can use any
+            icon you want.
           </p>
         </div>
         <div className="mt-10">

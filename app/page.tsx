@@ -19,12 +19,11 @@ export default function Page() {
           leftHalf={
             <>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 dark:text-white mb-4">
-                Easily monitor all financial activities
+                Effortlessly highlight the key features of your app
               </h2>
               <p className="text-xl">
-                Users can input their income & expenses, categorize transactions, and view reports and summaries of
-                their spending habits. It enables effective budgeting and expense tracking, helping you stay on top of
-                your financial goals.
+                Our app makes it easy to showcase your key features. With customizable sections, you can highlight the
+                most important aspects of your product. More to come.
               </p>
             </>
           }
@@ -38,12 +37,11 @@ export default function Page() {
           rightHalf={
             <div className="flex flex-col justify-end">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 dark:text-white mb-4">
-                Easily monitor all financial activities
+                Highlight the key features
               </h2>
               <p className="text-xl">
-                Users can input their income & expenses, categorize transactions, and view reports and summaries of
-                their spending habits. It enables effective budgeting and expense tracking, helping you stay on top of
-                your financial goals.
+                Talk about some of the key features of your app that you want to highlight. Use the beautiful accordion
+                to highlight the key features of your app.
               </p>
             </div>
           }

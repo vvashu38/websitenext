@@ -15,33 +15,33 @@ interface ReviewsProps {
 const defaultReviews: ReviewData[] = [
   {
     rating: 5,
-    title: "Best finance budgeting app ever!",
+    title: "Best app ever!",
     content:
-      "This finance app has been a game-changer for me! It's made budgeting and tracking my expenses so much easier. I love how intuitive and user-friendly it is.",
+      "This app has been a game-changer for me! It's made tracking my daily activities so much easier. I love how intuitive and user-friendly it is.",
     author: "Jonas Aly",
     designation: "Founder @ Company",
   },
   {
     rating: 5,
-    title: "Super helpful to watch my spend",
+    title: "Super helpful to stay organized",
     content:
-      "I can't thank this app enough for helping me stay on top of my bills. The bill payment reminders have saved me from late fees, & more organized with my finances.",
+      "I can't thank this app enough for helping me stay on top of my tasks. The reminders have saved me from missing important deadlines, and I'm much more organized now.",
     author: "Mark Bures",
     designation: "Businessman",
   },
   {
     rating: 5,
-    title: "Great app that saves money",
+    title: "Great app that saves time",
     content:
-      "The app's integration with my bank accounts is seamless. I can easily check my balances and transactions without having to log in separately.",
+      "The app's integration with my other tools is seamless. I can easily check my progress and activities without having to switch between multiple platforms.",
     author: "William Kolas",
     designation: "Student",
   },
   {
-    rating: 3,
+    rating: 4,
     title: "Seriously life changing app!",
     content:
-      "The financial insights and reports have been eye-opening. I now have a better understanding of my spending habit and can make adjustment to save more.",
+      "The insights and reports have been eye-opening. I now have a better understanding of my habits and can make adjustments to improve my productivity.",
     author: "Andrew Chan",
     designation: "Manager @ AB Company",
   },
@@ -52,7 +52,7 @@ const Reviews: React.FC<ReviewsProps> = ({ reviews = defaultReviews }) => {
     <section className="py-24 bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 text-gray-900 dark:text-white">
-          We've earned a 4.8-star Trustpilot rating
+          A beautiful Reviews section
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-8">
           {reviews.map((review, index) => (
