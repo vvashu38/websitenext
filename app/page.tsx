@@ -8,6 +8,7 @@ import Image from "next/image";
 import Accordion from "components/Accordion";
 import Reviews from "components/Reviews";
 import Download from "components/Download";
+
 export default function Page() {
   return (
     <div className="flex flex-col min-h-screen bg-white dark:bg-black">
@@ -18,10 +19,10 @@ export default function Page() {
         <Section
           leftHalf={
             <>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 dark:text-white mb-4">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
                 Effortlessly highlight the key features of your app
               </h2>
-              <p className="text-xl">
+              <p className="text-xl font-light">
                 Our app makes it easy to showcase your key features. With customizable sections, you can highlight the
                 most important aspects of your product. More to come.
               </p>
@@ -36,10 +37,10 @@ export default function Page() {
           leftHalf={<Accordion />}
           rightHalf={
             <div className="flex flex-col justify-end">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 dark:text-white mb-4">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
                 Highlight the key features
               </h2>
-              <p className="text-xl">
+              <p className="text-xl font-light">
                 Talk about some of the key features of your app that you want to highlight. Use the beautiful accordion
                 to highlight the key features of your app.
               </p>

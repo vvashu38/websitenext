@@ -30,7 +30,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content, isOpen, t
           }`}
         >
           <div className="p-4">
-            <p className="text-white">{content}</p>
+            <p className="text-white font-light">{content}</p>
           </div>
         </div>
       </div>
