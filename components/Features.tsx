@@ -38,7 +38,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="container mx-auto px-4 py-12 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 dark:bg-gray-900 transition-colors duration-200 rounded-lg">
+    <section className="mx-auto px-4 py-12 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 dark:bg-gray-900 transition-colors duration-200 rounded-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <TypographyComponent variant="display-h2" fontWeight="bold" text="Features" className="text-gray-900 dark:text-white mb-4" />

@@ -24,8 +24,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           rel="stylesheet"
         />
       </head>
-      <body className="bg-white dark:bg-black min-h-screen font-sans">
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+      <body className="bg-white min-h-screen font-sans">
+        <ThemeProvider attribute="class" defaultTheme="white" enableSystem>
           {children}
         </ThemeProvider>
       </body>
