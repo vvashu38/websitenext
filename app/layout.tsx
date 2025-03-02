@@ -19,8 +19,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Appleberry&display=swap"
+          rel="stylesheet"
+        />
       </head>
-      <body className="bg-white dark:bg-black min-h-screen">
+      <body className="bg-white dark:bg-black min-h-screen font-sans">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           {children}
         </ThemeProvider>

@@ -8,45 +8,36 @@ import Image from "next/image";
 import Accordion from "components/Accordion";
 import Reviews from "components/Reviews";
 import Download from "components/Download";
+import TypographyComponent from "components/Preline/Typography";
 
 export default function Page() {
   return (
-    <div className="flex flex-col min-h-screen bg-white dark:bg-black">
+    <div className="flex flex-col">
       <Header />
       <main>
-        <Hero />
-        <Features />
+          <Hero />
         <Section
           leftHalf={
             <>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-                Little Millenium
-              </h2>
-              <p className="text-xl font-light">
-                Our app makes it easy to showcase your key features. With customizable sections, you can highlight the
-                most important aspects of your product. More to come.
-              </p>
+              <TypographyComponent variant="display-h1" text="Little Millenium" fontWeight="bold" className="mb-4 font-appleberry" />
+              <TypographyComponent variant="text-xl" text="Our app makes it easy to showcase your key features. With customizable sections, you can highlight the most important aspects of your product. More to come." className="font-light" />
             </>
           }
           rightHalf={
-            <Image src={"/products/phone.png"} alt="section-image" width={500} height={100} className="w-1/2 h-auto" />
+            <Image src={"/assets/images/kids_with_earth.jpg"} alt="section-image" width={500} height={100} className="w-96 h-auto" />
           }
         />
-        <Customers />
-        <Section
+        <Features />
+        {/* <Customers /> */}
+        {/* <Section
           leftHalf={<Accordion />}
           rightHalf={
             <div className="flex flex-col justify-end">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 dark:text-white mb-4">
-                Highlight the key features
-              </h2>
-              <p className="text-xl font-light">
-                Talk about some of the key features of your app that you want to highlight. Use the beautiful accordion
-                to highlight the key features of your app.
-              </p>
+              <TypographyComponent variant="display-lg" text="Highlight the key features" fontWeight="bold" className="mb-4" />
+              <TypographyComponent variant="text-xl" text="Talk about some of the key features of your app that you want to highlight. Use the beautiful accordion to highlight the key features of your app." className="font-light" />
             </div>
           }
-        />
+        /> */}
         <Reviews />
         <Download />
       </main>

@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
+          "Appleberry",
           "Inter Tight",
           "ui-sans-serif",
           "system-ui",
