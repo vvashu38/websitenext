@@ -39,7 +39,7 @@ export default function Page() {
           }
         /> */}
         <Reviews />
-        <Download />
+        {/* <Download /> */}
       </main>
       <Footer />
     </div>
