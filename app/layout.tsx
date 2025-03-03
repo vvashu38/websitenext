@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 import "styles/globals.css";
 

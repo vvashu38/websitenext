@@ -1,3 +1,5 @@
+"use client";
+
 import Header from "components/Header";
 import Hero from "components/Hero";
 import Features from "components/Features";
@@ -8,6 +10,7 @@ import Image from "next/image";
 import Accordion from "components/Accordion";
 import Reviews from "components/Reviews";
 import Download from "components/Download";
+import { motion } from "framer-motion";
 import TypographyComponent from "components/Preline/Typography";
 
 export default function Page() {
@@ -19,8 +22,26 @@ export default function Page() {
         <Section
           leftHalf={
             <>
-              <TypographyComponent variant="display-h1" text="Little Millenium" fontWeight="bold" className="mb-4 font-appleberry" />
+              <motion.div  animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
+        transition={{
+          duration: 2,
+          delay: 0.3,
+          ease: [0.5, 0.71, 1, 1.5],
+        }}
+        initial={{ opacity: 0, scale: 0.5 }}
+        whileHover={{ scale: 0.2 }}>
+                <TypographyComponent  variant="display-h1" text="Little Millenium" fontWeight="bold" className="mb-4 font-appleberry" />
+              </motion.div>
+              <motion.div  animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
+        transition={{
+          duration: 2,
+          delay: 0.1,
+          ease: [0.5, 0.71, 1, 1.5],
+        }}
+        initial={{ opacity: 0, scale: 0.5 }}
+        whileHover={{ scale: 0.2 }}>
               <TypographyComponent variant="text-xl" text="Our app makes it easy to showcase your key features. With customizable sections, you can highlight the most important aspects of your product. More to come." className="font-light" />
+              </motion.div>
             </>
           }
           rightHalf={
