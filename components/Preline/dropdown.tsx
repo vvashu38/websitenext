@@ -9,7 +9,7 @@ import React, {
   useRef,
   useState,
 } from 'react';
-import { isUndefined } from 'lodash-es';
+import { isUndefined } from 'lodash';
 import { clsx } from 'clsx';
 import { Floating, FloatingProps } from './popover/floating';
 

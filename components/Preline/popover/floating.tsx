@@ -16,7 +16,7 @@ import {
   useFloatingNodeId,
   FloatingNode,
 } from '@floating-ui/react';
-import { isUndefined } from 'lodash-es';
+import { isUndefined } from 'lodash';
 import { clsx } from 'clsx';
 import { useCurrentZIndex } from '../util';
 import { Transition } from '../transition';

@@ -4,7 +4,7 @@
  * Simplified by Yuhang-Ge<abeyuhang@gmail.com>
  */
 
-import { isFunction, isString, isUndefined } from 'lodash-es';
+import { isFunction, isString, isUndefined } from 'lodash';
 
 let autoIncrement = 0;
 let nextHandle = 1; // Spec says greater than zero

@@ -1,4 +1,4 @@
-import { isNumber } from 'lodash-es';
+import { isNumber } from 'lodash';
 import React, { FC, InputHTMLAttributes, useEffect, useState } from 'react';
 import { InputBaseProps } from './input';
 import { getInputCls } from './helper';
@@ -27,9 +27,9 @@ export const NumberInput: FC<NumberInputProps> = ({
   onKeyDown,
   ...rest
 }) => {
-  const [ipt, setIpt] = useState<string>(isNumber(value) ? value.toString() : '');
+  const [ipt, setIpt] = useState<string>(isNumber(value ?? 0) ? value!.toString() : '');
   useEffect(() => {
-    setIpt(isNumber(value) ? value.toString() : '');
+    setIpt(isNumber(value ?? '') ? value!.toString() : '');
   }, [value]);
   return (
     <input

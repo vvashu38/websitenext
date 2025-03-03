@@ -8,7 +8,7 @@ import React, {
     useRef,
     useState,
   } from 'react';
-  import { isFunction } from 'lodash-es';
+  import { isFunction } from 'lodash';
   import { useNonFirstEffect } from '../util';
   import { TransitionCallbacks, TransitionProps, applyTransition, clsarr } from './core';
   type Props = {
@@ -109,9 +109,13 @@ import React, {
           {...restProps}
           onMounted={(el) => {
             if (isFunction(ref)) {
-              ref(el);
-            } else if (ref) {
-              ref.current = el;
+              if (typeof ref === 'function') {
+                ref(el);
+              } else if (ref && 'current' in ref) {
+                ref.current = el;
+              }
+            } else if (ref && 'current' in ref) {
+              (ref as React.MutableRefObject<Element | null>).current = el;
             }
           }}
         />
