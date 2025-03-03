@@ -45,7 +45,7 @@ export default function Page() {
             </>
           }
           rightHalf={
-            <Image src={"/assets/images/kids_with_earth.jpg"} alt="section-image" width={500} height={100} className="w-96 h-auto" />
+            <Image src={"/./assets/images/kids_with_earth.jpg"} alt="section-image" width={500} height={100} className="w-96 h-auto" />
           }
         />
         <Features />
