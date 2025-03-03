@@ -3,9 +3,9 @@ import CarouselComponent from "./carousel/CarouselComponent";
 import TypographyComponent from "./Preline/Typography";
 
 const images = [
-  { src: "/assets/bg/paper_bg.jpg", alt: "First Slide", title: "Slide 1", caption: "This is the first slide." },
-  { src: "/assets/bg/bg_white_patterns.jpg", alt: "Second Slide", title: "Slide 2", caption: "This is the second slide." },
-  { src: "/assets/bg/paper_bg.jpg", alt: "Third Slide", title: "Slide 3", caption: "This is the third slide." },
+  { src: "/assets/bg/a1.jpg", alt: "First Slide", title: "Preschool Fun", caption: "Discover the joy of learning at our preschool." },
+  { src: "/assets/bg/a2.jpg", alt: "Second Slide", title: "Creative Activities", caption: "Engage in creative activities that inspire young minds." },
+  { src: "/assets/bg/a3.jpg", alt: "Third Slide", title: "Safe Environment", caption: "A safe and nurturing environment for your child." },
 ];
 
 

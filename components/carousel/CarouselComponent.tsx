@@ -1,5 +1,4 @@
 "use client";
-
 import Carousel from 'react-bootstrap/Carousel';
 import Image from 'next/image';
 import TypographyComponent from 'components/Preline/Typography';
@@ -20,30 +19,30 @@ const CarouselComponent: React.FC<CarouselProps> = ({ images }) => {
     <Carousel fade>
       {images.map((img, index) => (
         <Carousel.Item key={index}>
-          <Image
-            src={img.src}
-            alt={img.alt}
-            layout="responsive"
-            width={1000}
-            height={600}
-            className="d-block w-100"
-          />
-            <Carousel.Caption>
+          <div className="relative w-full h-96">
+            <Image
+              src={img.src}
+              alt={img.alt}
+              fill
+              className="object-cover"
+            />
+          </div>
+          <Carousel.Caption>
             {img.title && (
               <TypographyComponent
-              variant='display-h1'
-              text={img.title}
-              className='text-responsive'
+                variant='display-h1'
+                text={img.title}
+                className='text-responsive'
               />
             )}
             {img.caption && (
               <TypographyComponent
-              className='mb-96 text-responsive'
-              variant='display-md'
-              text={img.caption}
+                className='mb-96 text-responsive'
+                variant='display-md'
+                text={img.caption}
               />
             )}
-            </Carousel.Caption>
+          </Carousel.Caption>
         </Carousel.Item>
       ))}
     </Carousel>
